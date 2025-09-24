@@ -155,15 +155,46 @@
 // console.log(newarr);
 
 
-
-
 // Q19
 // Answer
-let  arry = [12, null, "hello", undefined, 0, "world", false, null];
-let newarr = arry.filter(val => val.splice( ))
-console.log(newarr);
+// let  arry = [12, null, "hello", undefined, 0, "world", false, null];
+// let newarr = arry.filter(val => val !== null && val !== undefined)
+// console.log(newarr);
+
+
+// Q20
+// Answer
+// let products = [{name: "Phone", price: 99}, {name: "Tablet", price: 120}];
+// let newpro = products.filter(price => price.price < 100)
+// console.log(newpro);
+
+
+// Q21
+// Answer
+
+// let numbers = [1, 2, 3, 4];
+// let newnum = numbers.reduce((acc, val) => {
+// return acc + val
+
+// },0)
+// console.log(newnum);
 
 
 
+// Q22
+// Answer
+// let numbers = [10,40,70,100,20,200];
+// let newnum = numbers.reduce((acc, max) => {
+// return acc > max ? acc : max 
+// },0)
+// console.log(newnum);
 
 
+
+// Q23
+// Answer
+// let fruits = ["apple", "banana", "apple", "orange", "banana"];
+// let newarr = fruits.reduce((count, acc ) => {
+// return  count === "fruits" ? acc + 1 : acc
+// },0)
+// console.log(newarr);
