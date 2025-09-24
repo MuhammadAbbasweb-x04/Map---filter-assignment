@@ -1,6 +1,6 @@
 // Q1
 // Answer
-// let numbers = [1,2,3,4,5,6,7,8,9,10]
+// let numbers = [1,2,3,4,5,6,7,8,9,10];
 // let ans = numbers.map((val) => {
 // return val * 2
 
@@ -11,7 +11,7 @@
 // Answer
 // let fruits = ["apple", "banana","cherry"];
 // const newarr = fruits.map((val) =>{
-// return val.toUpperCase()
+// return val.toUpperCase();
 
 // })
 
@@ -95,3 +95,75 @@
 
 // Q11
 // Answer
+// let numbers = [1, 2, 3, 4, 5, 6];
+// let newnum = numbers.filter((num) =>{
+//   return  num%2===0
+
+// })
+// console.log(newnum);
+
+
+// Q12
+// Answer
+// let numbers =  [-3, 4, -1, 7, -5];
+// let newnum = numbers.filter(num => num > 0);
+// console.log(newnum);
+
+// Q13
+// Answer
+// let  characters = ["Joe","Elizabeth","Tom","Anna"];
+// let newarr = characters.filter(names => names.length > 4);
+// console.log(newarr);
+
+
+// Q14
+// Answer
+// let usernames = [{name: "Alice", active: true}, {name: "Bob", active: false}];
+// let newarr = usernames.filter(names => names.active);
+// console.log(newarr);
+
+
+// Q15
+// Answer
+// let usernames = ["amina", "fatima", "zainab", "ayaan", "hassan", "salman", "khadija"];
+// let newarr = usernames.filter((names) => {
+// return names.charAt()  === "a"
+
+
+// });
+// console.log(newarr);
+
+// Q16
+// Answer
+// let numbers = [10,20,30,40,50,60,70,80,90,100]
+// let newnum = numbers.filter(num => num > 10);
+// console.log(newnum);
+
+// Q17
+// Answer
+// let values = [0, null, undefined, "", false, NaN, 1, "hello", true, 42];
+// let newval = values.filter(val => val);
+// console.log(newval);
+
+
+
+// Q18
+// Answer
+// let names = ["I love to code", "Coding is fun", "Decode the message", "Welcome", "Code review"];
+// let newarr = names.filter(newnames => newnames.includes("code"));
+
+// console.log(newarr);
+
+
+
+
+// Q19
+// Answer
+let  arry = [12, null, "hello", undefined, 0, "world", false, null];
+let newarr = arry.filter(val => val.splice( ))
+console.log(newarr);
+
+
+
+
+
